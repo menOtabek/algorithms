@@ -20,7 +20,7 @@ Natija: [0]
 """
 
 
-def moveZeroes(nums: list) -> list:
+def move_zeroes(nums: list) -> list:
     count = 0
 
     for i, num in enumerate(nums):
@@ -31,4 +31,5 @@ def moveZeroes(nums: list) -> list:
     return nums
 
 
-a = moveZeroes([1, 3, 0, 12, 0, 0])
+a = move_zeroes([1, 3, 0, 12, 0, 0])
+print(a)
